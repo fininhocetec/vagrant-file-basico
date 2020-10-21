@@ -1,5 +1,11 @@
+![vagrant-2.2.10](https://img.shields.io/badge/vagrant-2.2.10-blue?style=flat-square)
+
 Vagrantfile - Básico
 ========================
+
+![Capa](virtualbox-plus-vagrant.png "Capa")
+
+## Lab inicial
 
 Um Vagrantfile básico com duas maquinas.
 
@@ -7,36 +13,44 @@ Um Vagrantfile básico com duas maquinas.
 Requisitos
 ------------
 
-Instalação do VirtualBox como  provisor e Vagrant.
+Instalação do VirtualBox como provisor e Vagrant.
 
 
-Dependencies
+Dependências
 ------------
 
-None
+Não se aplica.
 
 Rodando o Ambiente
 -------------------
 
 Tenha certeza de star na pasta onde encontra o Vagrantfile 
 
-$ vagrant up
+    $ vagrant up
 
-$ vagrant ssh server1
-  exit
+Entrando via SSH nos servers:
 
-$ vagrant ssh server2
-  exit 
+    $ vagrant ssh server1
+      exit
 
-$ vagrante status
+    $ vagrant ssh server2
+      exit 
 
-$ vagrant global-status
+Verificando o status:
 
-$ vagrant halt
+    $ vagrante status
 
-$ vagrant destroy
+    $ vagrant global-status
 
-Author Information
+Desligando e removendo o ambiente:
+
+    $ vagrant halt
+
+    $ vagrant destroy
+
+
+Informações do Autor
 ------------------
 
-- Willdimark Ragazzi Ventura (<fininho.cetec@gmail.com>)
+- Este projeto foi criado por Willdimark Ragazzi Ventura, DevOps Engineer. (<fininho.cetec@gmail.com>)
+- Linkedin [Perfil](https://www.linkedin.com/in/willdymark-ragazzi-ventura-ccna-devnetsecops-membro-anppd%C2%AE-a4422617//).
